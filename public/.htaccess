@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files & directories directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Fallback to index.php for everything else
+  RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+# Use custom 404 page instead of ugly default
+ErrorDocument 404 /404.php
