@@ -9,6 +9,6 @@ return [
     ],
     'admin_login' => [
         "email" => "alisamtia1@gmail.com",
-        "password" => password_hash("Sahb@679", PASSWORD_DEFAULT),
+        "password" => "$2y$10$.mXnBXgw2OXv4vVk9NkfdO70FcnXpIKlckog.Fil/12dJL0RzYqpu",
     ]
 ];
