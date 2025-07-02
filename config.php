@@ -12,3 +12,4 @@ return [
         "password" => "$2y$10$.mXnBXgw2OXv4vVk9NkfdO70FcnXpIKlckog.Fil/12dJL0RzYqpu"
     ]
 ];
+
