@@ -6,13 +6,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Your awesome website built with Tailwind CSS.">
-    <meta name="keywords" content="HTML, CSS, Tailwind, Web Development, Pakistan, Ali Samtia">
+    <meta name="title" content="Ali Samtia — WordPress & Full Stack PHP Developer from Pakistan">
+    <meta name="description" content="Ali Samtia is a Full Stack PHP developer building fast, responsive websites using WordPress, Laravel, and Tailwind CSS.">
+    <meta name="keywords" content="Ali Samtia, Web Developer Pakistan, PHP Developer, WordPress Expert, Laravel Developer, Tailwind CSS, Full Stack Developer, Custom Websites">
     <meta name="author" content="Ali Samtia">
 
     <!-- Social Media Icons -->
     <meta property="og:title" content="Ali Samtia — WordPress & Laravel PHP Developer">
-    <meta property="og:description" content="Ali Samtia is a PHP developer building fast, responsive websites using WordPress, Laravel, and Tailwind CSS." />
+    <meta property="og:description" content="Ali Samtia is a Full Stack PHP developer building fast, responsive websites using WordPress, Laravel, and Tailwind CSS." />
     <meta property="og:image" content="/images/social_media.webp">
     <meta property="og:url" content="https://alisamtia.com/">
     <meta property="og:type" content="website">
@@ -20,7 +21,7 @@
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="/images/twitter_img.webp">
     <meta name="twitter:title" content="Ali Samtia — WordPress & Laravel PHP Developer">
-    <meta name="twitter:description" content="Ali Samtia is a PHP developer building fast, responsive websites using WordPress, Laravel, and Tailwind CSS." />
+    <meta name="twitter:description" content="Ali Samtia is a Full Stack PHP developer building fast, responsive websites using WordPress, Laravel, and Tailwind CSS." />
     <meta name="twitter:image" content="/images/twitter_img.webp">
 
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -66,33 +67,6 @@
     </script>
 
     <script src="https://www.google.com/recaptcha/api.js?render=6Le0IWorAAAAADRWWVh9pbHcjlJHukGE_3wggQcQ"></script>
-    <style>
-        /* Optional CSS if not using Tailwind for the blinking cursor */
-        @keyframes blink {
-
-            0%,
-            100% {
-                opacity: 1
-            }
-
-            50% {
-                opacity: 0
-            }
-        }
-
-        .blink {
-            animation: blink 1s step-start infinite;
-        }
-
-        .grecaptcha-badge {
-            visibility: hidden;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -478,8 +452,6 @@
             </p>
             <hr class="mt-4 w-24 border-black"/>
         </div>
-        <!-- Include Font Awesome for GitHub Icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0">
 

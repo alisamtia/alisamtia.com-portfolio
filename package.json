@@ -1,11 +1,12 @@
 {
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "tailwindcss": "^3.4.17",
     "uglify-js": "^3.19.3"
   },
   "scripts": {
     "dev": "npx tailwindcss -i ./src/style.css -o ./public/build/style.css --watch --minify",
-    "build": "npx tailwindcss -i ./src/style.css -o ./public/build/style.css --minify && npm run minify-js",
+    "build": "cross-env NODE_ENV=production npx tailwindcss -i ./src/style.css -o ./public/build/style.css --minify && npm run minify-js",
     "minify-js": "uglifyjs src/main.js -o public/build/script.min.js -c -m"
   }
 }

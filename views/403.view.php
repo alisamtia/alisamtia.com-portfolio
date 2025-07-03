@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>403 Unauthorized Access — Ali Samtia</title>
   <link rel="stylesheet" href="/build/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-heading flex flex-col justify-center items-center min-h-screen px-4 py-20">

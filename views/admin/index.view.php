@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard — Submissions</title>
     <link rel="stylesheet" href="/build/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-white text-gray-900 font-paragraph">
 

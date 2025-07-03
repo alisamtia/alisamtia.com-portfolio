@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login — Ali Samtia</title>
     <link rel="stylesheet" href="/build/style.css">
-    <script src="https://www.google.com/recaptcha/api.js?render=6Le0IWorAAAAADRWWVh9pbHcjlJHukGE_3wggQcQ"></script>
 </head>
 <body class="bg-white text-gray-900 font-sans">
 
